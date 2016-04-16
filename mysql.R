@@ -1,0 +1,6 @@
+library(RMySQL)
+conn<-dbConnect(MySQL(),dbname="etl_data",username="root",password="testpass",host="192.168.1.222",port=3306)
+tabs<-dbGetQuery(conn,"show tables")
+info<-dbGetQuery(conn,"select * from info_huiyingdai")
+head(info)
+View(info)
