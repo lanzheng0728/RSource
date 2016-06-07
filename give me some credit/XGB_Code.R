@@ -1,7 +1,7 @@
 ## Reference XGB Implementation R
 #https://www.kaggle.com/tqchen/otto-group-product-classification-challenge/understanding-xgboost-model-on-otto-data/notebook
 library(xgboost)
-setwd("C:/Users/User/Desktop/Kaggle Code/Give Me Some Credit") # Set the working Directory
+setwd("D:\\Git-lanzheng\\RSource\\give me some credit") # Set the working Directory
 train<-read.csv("cs-training.csv") # Import train Data
 test<-read.csv("cs-test.csv") # Import Test data
 sample_submission<-read.csv("sampleEntry.csv")
